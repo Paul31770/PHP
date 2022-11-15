@@ -11,3 +11,12 @@ return function (array $context) {
 
 //Test 1
 //rsgdgdgd
+<<<<<<< HEAD
+=======
+
+//function abcde
+//TEST
+
+//Nouvelle fonction abc
+//c'est super
+>>>>>>> fonctionA
