@@ -9,6 +9,3 @@ return function (array $context) {
 
 };
 
-//Test 1
-//rsgdgdgd
-//bonsoir paris
