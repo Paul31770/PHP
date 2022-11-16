@@ -3,7 +3,12 @@
 {% block body %}
 {{include("./header.html.twig")}}
 
-{% include "./rubrique.html.twig" with {"title" : "Droit des sociétés", "image": "societe"} %}
+{% include "./rubrique.html.twig" with {"title" : "Droit des sociétés", "image": "societe", "data": ["Constitution de sociétés commerciales et civiles, et groupe de sociétés","Secrétariat juridique ou « Corporate » : approbation des comptes annuels, délibérations des associés,
+modifications statutaires diverses, dissolution-liquidation...), accomplissement et suivi des formalités","Opérations sur le capital (augmentation de capital en numéraire ou en nature, réduction de capital,
+apport de titres ...)","Fusions, apports partiels d'actifs, scissions, transformations de sociétés","Émission des valeurs mobilières (obligations convertibles ou remboursables, BSPCE, Actions gratuites
+etc.)","Organisation des relations intra-groupe : création de société holding, conventions de gestion de
+trésorerie, conventions de prestations de services, conventions d’intégration fiscale etc.","Organisation des relations entre associés (pactes d’associés, règlements intérieur)","Gestion des conflits entre associés (abus de majorité, de minorité, contentieux de la valorisation des
+titres de société, procédure d’exclusion d’un associé, etc.)","Contentieux de la responsabilité des dirigeants sociaux, révocation des dirigeants sociaux"]} %}
 
 {{include("./footer.html.twig")}}
 {% endblock %}
