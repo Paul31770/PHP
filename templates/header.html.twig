@@ -5,10 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('../../public/assets/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../assets/css/style.css') }}" />
     <title>Laura</title>
 </head>
 <body>
-    <h1>Oue</h1>
+    <div class="header">
+      <a href="index.html">
+        <div class="logo">
+          <img id="lNormal" height="70px" src="{{ asset('../assets/image/logo_laura.png')}}" alt="logo" />
+          <img
+            id="lSmall"
+            height="70px"
+            src="images/smallLogo.png"
+            alt="logo"
+          />
+        </div>
+      </a>
+
+      <div class="menu">
+        <div id="acceuilBtn" class="headerBtn">
+          <a href="#"><p>Accueil</p></a>
+        </div>
+        <div class="headerBtn" id="expertise">
+          <p class="expertise">Expertise</p>
+          <div id="filler"></div>
+          <div class="scrollingMenu">
+            <div class="subMenu">
+              <a href="pages/droitCommercial/droitCommercial.html">
+                Droit commercial</a
+              >
+            </div>
+            <hr />
+            <div class="subMenu">
+              <a href="pages/droit sociétés/droits_societes.html"
+                >Droit des sociétés</a
+              >
+            </div>
+            <hr />
+            <div class="subMenu">
+              <a
+                href="pages/achat entreprise/transmission_achat_entreprise.html"
+                >Transmission et Achat d'entreprise</a
+              >
+            </div>
+            <hr />
+
+            <div class="subMenu">
+              <a href="pages/organisme formation/organismeformation.html"
+                >Organisme de formation</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="headerBtn">
+          <a href="#"><p>Contact</p></a>
+        </div>
+      </div>
+    </div>
+    
+  </head>
+  <body>
+    
 </body>
 </html>

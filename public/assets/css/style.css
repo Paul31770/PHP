@@ -131,7 +131,7 @@ a {
 
 .header {
    box-sizing: border-box;
-   width: 100%;
+   width: 101%;
    top: 0px;
    left: 0px;
    justify-content: space-between;

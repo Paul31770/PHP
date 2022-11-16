@@ -3,8 +3,43 @@
 {% block body %}
 <title>{% block title %}Page d'accueil{% endblock %}</title>
 {{include("./header.html.twig")}}
-
-<p>content</p>
+<div class="headImage">
+      <img src="{{ asset('../../assets/image/test.webp')}}" />
+      <div class="text">
+        <h1>Laura LLANES-DESBARAX</h1>
+        <p id="soustitre">CABINET D'AVOCAT</p>
+      </div>
+    </div>
+<div class="presentationContainer">
+      <div class="inlineContainer">
+        <div class="presentation">
+          <h2>A propos de moi</h2>
+          <p>
+            Diplômée d'un Master II Juriste d'entreprise et Docteur en droit, Me
+            Laura LLANES-DESBARAX accompagne les entreprises et leurs dirigeants
+            dans leur création, leur développement économique et stratégique
+            ainsi que, et plus particulièrement, leur transmission.
+          </p>
+        </div>
+        <div id="photo" class="photo">
+          <img src="{{ asset('../../assets/image/image_justice.jpg')}}"/>
+        </div>
+      </div>
+      <img width="100%" src="" />
+      <div class="inlineContainer">
+        <div id="photoLaura" class="photo">
+          <img src="images/laura.jpg" />
+        </div>
+        <div class="presentation">
+          <h2>Qui suis-je ?</h2>
+          <p>
+            Implantée à Toulouse, Me Laura LLANES-DESBARAX conseille et assiste
+            dans tous les domaines du Droit des affaires.
+          </p>
+        </div>
+      </div>
+    </div>
+    
 
 {{include("./footer.html.twig")}}
 {% endblock %}
