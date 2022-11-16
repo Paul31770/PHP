@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{{include("./header.html.twig")}}
+
+{% include "./rubrique.html.twig" with {"title" : "Droit des sociétés", "prout": "gros pet"} %}
+
+{{include("./footer.html.twig")}}
+{% endblock %}
