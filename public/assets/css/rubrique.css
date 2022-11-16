@@ -1,82 +1,76 @@
 * {
-   margin: 0;
-   padding: 0;
- }
- 
- @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap");
- 
- html,
- body {
-   scroll-behavior: smooth;
- }
- 
- p {
-   font-family: "Noto Sans", sans-serif;
-   font-weight: 500;
-   font-size: 1.2rem;
- }
- 
- #puce,
- img {
-   width: 20px;
-   height: 20px;
- }
- 
- h1,
- h4 {
-   font-family: "Noto Sans", sans-serif;
-   font-weight: 700;
- }
- 
- #title {
-   text-align: center;
-   margin-top: 100px;
-   margin-bottom: 100px;
- }
- 
- .rubrique {
-   padding: 2vw;
-   text-align: center;
-   /* background-color: rgb(224, 224, 224); */
-   /* border-radius: 15px; */
- }
- 
- .container {
- }
- 
- body {
-   padding-top: 80px;
- }
- 
- .pagehead img {
-   width: 100vw;
-   height: 70vh;
-   object-fit: cover;
-   filter: brightness(0.7);
-   background-color: #000;
- }
- 
- .pagehead h1 {
-   position: absolute;
-   top: 30%;
-   left: 50%;
-   width: 100%;
-   font-size: 55px;
-   transform: translate(-50%, -50%);
-   color: #fff;
-   text-align: center;
-   z-index: 10;
- }
- 
- .rubTitle {
-   font-size: 16px;
-   font-weight: 700;
-   margin-bottom: 30px;
-   text-align: justify;
-   z-index: 10;
-   display: flex;
-   align-items: center;
-   flex-direction: row;
-   gap: 15px;
- }
- 
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap");
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+
+h1,
+h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
+
+#title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.rubrique {
+  padding: 2vw;
+  text-align: center;
+  /* background-color: rgb(224, 224, 224); */
+  /* border-radius: 15px; */
+}
+
+.container {}
+
+body {
+  padding-top: 80px;
+}
+
+.pagehead img {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+  filter: brightness(0.7);
+  background-color: #000;
+}
+
+.pagehead h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 100%;
+  font-size: 55px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+}
+
+.rubTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: justify;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
