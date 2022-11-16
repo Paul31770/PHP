@@ -3,7 +3,11 @@
 {% block body %}
 {{include("./header.html.twig")}}
 
-{% include "./rubrique.html.twig" with {"title" : "Organisme de formation", "image": "formation"} %}
+{% include "./rubrique.html.twig" with {"title" : "Organisme de formation", "image": "formation", "data" : ["Me Laura LLANES-DESBARAX intervient auprès des professionnels en Droit des sociétés, Droit
+commercial, Droit fiscal, Création et Reprise d’entreprise.", "Depuis 2011, elle dispense des formations au sein du Campus IGS à Blagnac auprès des étudiants de
+Bac + 3 à Master II (notamment droit fiscal et création de start up).", "Elle anime des interventions également régulièrement auprès des Chambres de Commerce et de
+l’Industrie, Chambres de Métier et de l’Artisanat, Fédérations professionnelles et Clubs d’entreprises
+sur des thématiques variées, telles que la création et la reprise d’entreprise."]} %}
 
 {{include("./footer.html.twig")}}
 {% endblock %}
