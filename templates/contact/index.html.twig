@@ -1,5 +1,13 @@
-<!DOCTYPE html>
+{% extends 'base.html.twig' %}
 
-<title>Hello ContactController!</title>
+{% block body %}
+{{include("./header.html.twig")}}
 
-<h1>contact</h1>
+<form>
+<h2>Formulaire de contact</h2>
+
+
+</form>
+
+{{include("./footer.html.twig")}}
+{% endblock %}
