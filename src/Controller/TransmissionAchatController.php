@@ -6,13 +6,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class DroitSociétésController extends AbstractController
+class TransmissionAchatController extends AbstractController
 {
-    #[Route('/droitsocietes', name: 'app_droitsocietes')]
+    #[Route('/transmissionachat', name: 'app_transmission_achat')]
     public function index(): Response
     {
-        return $this->render('droit_sociétés/index.html.twig', [
-            'controller_name' => 'DroitSociétésController',
+        return $this->render('transmission_achat/index.html.twig', [
+            'controller_name' => 'TransmissionAchatController',
         ]);
     }
 }
