@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{{include("./header.html.twig")}}
+
+{% include "./rubrique.html.twig" with {"title" : "Droit commercial", "image" : "commercial","data" : ["Rédaction de baux commerciaux, de sous-location, actes de renouvellement, des congés, des actes de
+résiliation amiable, etc.","Négociation et rédaction d’actes de cession de droit au bail.","Contrats régissant les relations commerciales entre entreprises : contrats de prestations de services,
+accords de confidentialité, contrats d’apporteur d’affaires.","Recouvrement de créances : mise en demeure, injonction de payer, procédure de recouvrement.","Contentieux commercial : concurrence déloyale, contrefaçon, baux commerciaux etc.","Contentieux civil : droit général des contrats, responsabilité civile et contractuelle etc."]} %}
+
+{{include("./footer.html.twig")}}
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{{include("./header.html.twig")}}
+
+{% include "./rubrique.html.twig" with {"title" : "Transmission et achat d'entreprise", "image": "achat", "data": ["Cession ou achat de fonds de commerce ou artisanal : négociation et rédaction de lettres d’intention ou LOI, promesses de cession (« compromis »), actes de cession.","Vente ou achat d’un cabinet libéral ou de patientèle.","Cession ou acquisition de droits sociaux / titre de sociétés :","Transmission familiale d’entreprises"]} %}
+
+{{include("./footer.html.twig")}}
+{% endblock %}
